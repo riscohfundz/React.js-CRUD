@@ -1,0 +1,164 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "phone": "555-123-4567",
+      "age": 21
+    },
+    {
+      "id": 2,
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "phone": "555-234-5678",
+      "age": 19
+    },
+    {
+      "id": 3,
+      "firstName": "Charlie",
+      "lastName": "Brown",
+      "phone": "555-345-6789",
+      "age": 20
+    },
+    {
+      "id": 4,
+      "firstName": "Diana",
+      "lastName": "Prince",
+      "phone": "555-456-7890",
+      "age": 22
+    },
+    {
+      "id": 5,
+      "firstName": "Ethan",
+      "lastName": "Hunt",
+      "phone": "555-567-8901",
+      "age": 18
+    },
+    {
+      "id": 6,
+      "firstName": "Fiona",
+      "lastName": "Gallagher",
+      "phone": "555-678-9012",
+      "age": 23
+    },
+    {
+      "id": 7,
+      "firstName": "George",
+      "lastName": "Costanza",
+      "phone": "555-789-0123",
+      "age": 20
+    },
+    {
+      "id": 8,
+      "firstName": "Hannah",
+      "lastName": "Baker",
+      "phone": "555-890-1234",
+      "age": 21
+    },
+    {
+      "id": 9,
+      "firstName": "Isaac",
+      "lastName": "Newton",
+      "phone": "555-901-2345",
+      "age": 19
+    },
+    {
+      "id": 10,
+      "firstName": "Jasmine",
+      "lastName": "Aladdin",
+      "phone": "555-012-3456",
+      "age": 22
+    },
+    {
+      "id": 11,
+      "firstName": "Kevin",
+      "lastName": "Malone",
+      "phone": "555-112-2334",
+      "age": 18
+    },
+    {
+      "id": 12,
+      "firstName": "Laura",
+      "lastName": "Palmer",
+      "phone": "555-223-3445",
+      "age": 23
+    },
+    {
+      "id": 13,
+      "firstName": "Michael",
+      "lastName": "Scott",
+      "phone": "555-334-4556",
+      "age": 20
+    },
+    {
+      "id": 14,
+      "firstName": "Nancy",
+      "lastName": "Drew",
+      "phone": "555-445-5667",
+      "age": 21
+    },
+    {
+      "id": 15,
+      "firstName": "Oliver",
+      "lastName": "Queen",
+      "phone": "555-556-6778",
+      "age": 19
+    },
+    {
+      "id": 16,
+      "firstName": "Penelope",
+      "lastName": "Garcia",
+      "phone": "555-667-7889",
+      "age": 22
+    },
+    {
+      "id": 17,
+      "firstName": "Quinn",
+      "lastName": "Fabray",
+      "phone": "555-778-8990",
+      "age": 18
+    },
+    {
+      "id": 18,
+      "firstName": "Ryan",
+      "lastName": "Howard",
+      "phone": "555-889-9001",
+      "age": 23
+    },
+    {
+      "id": 19,
+      "firstName": "Sarah",
+      "lastName": "Connor",
+      "phone": "555-990-0112",
+      "age": 20
+    },
+    {
+      "id": 20,
+      "firstName": "Trent",
+      "lastName": "Lane",
+      "phone": "555-001-1223",
+      "age": 21
+    }
+  ],
+  "scores": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "Maths": 92,
+      "Eng": 85,
+      "Agric": 78,
+      "PHE": 95,
+      "Literature": 88
+    },
+    {
+      "id": 20,
+      "studentId": 20,
+      "Maths": 77,
+      "Eng": 96,
+      "Agric": 60,
+      "PHE": 83,
+      "Literature": 75
+    }
+  ]
+}
