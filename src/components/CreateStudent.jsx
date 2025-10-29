@@ -3,7 +3,7 @@ import { object, string } from 'yup';
 import { v4 as uuidv4 } from 'uuid';
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useState } from "react";
-import { useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { BiLoaderCircle } from "react-icons/bi";
@@ -22,8 +22,7 @@ const CreateStudent = () => {
   phone: string().required().min(11, "Phone Number must be 11 xters"),
 });
   const {
-    register, handleSubmit,  formState: { errors },
-    } = useForm({
+    register, handleSubmit,  formState: { errors },} = useForm({
     resolver: yupResolver(studentSchemaValidation),
     defaultValues: {
       firstName: "",
@@ -45,16 +44,13 @@ const CreateStudent = () => {
       if (saveResponse.status === 201) {
         setLoading(false);
         console.log("Record saved successfully");
-        // alert("Student Saved Successfully");
-        // setTimeout(() => {
+        setTimeout(() => {
           navigate("/");
-        // }, 9000);
+        }, 9000);
       } 
     } catch (err) {
       console.log("There is error ", err);
-      // setLoading(false);
     } finally {
-      console.log("I am done here");
       setLoading(false);
     }
   };
@@ -78,10 +74,6 @@ const CreateStudent = () => {
               <h2 className="text-3xl font-bold text-center text-gray-900">
                 Create a new student
               </h2>
-              <p className="mt-1 text-sm/6 text-center text-gray-600">
-                Use a permanent address where you can receive mail.
-              </p>
-
               <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 <div className="sm:col-span-3">
                   <label
@@ -162,12 +154,14 @@ const CreateStudent = () => {
           </div>
 
           <div className="mt-6 flex items-center justify-end gap-x-6">
+            <Link to="/">
             <button
               type="button"
               className="text-sm/6 font-semibold text-gray-900"
             >
               Cancel
             </button>
+            </Link>
             <button
               type="submit"
               className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"

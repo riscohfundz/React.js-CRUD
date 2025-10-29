@@ -19,7 +19,6 @@ const ReadStudent = () => {
       } catch (error) {
         console.log("Error fetching student:", error.message);
       } finally {
-        console.log("I'm exhausted mah brr!");
         setLoading(false);
       }
     };
@@ -73,8 +72,8 @@ const ReadStudent = () => {
 
             {/* Back Button */}
             <Link to="/">
-              <button className="mt-6 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-200">
-                Back 🔙
+              <button className="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-500 transition-all duration-200">
+               🔙 Back
               </button>
             </Link>
           </>

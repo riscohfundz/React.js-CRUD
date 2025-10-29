@@ -19,7 +19,6 @@ const Home = () => {
                 console.log(error);
                 
             } finally{
-              console.log("Totally executed!");
               setLoading(false);
             }
         } 
@@ -66,10 +65,14 @@ const Home = () => {
                           <Link to={`/read-student/${id}`}>
                            <span>👁️</span> 
                            </Link>
+
                           <Link to={`/update-student/${id}`}>
                            <span>✒️</span>
                            </Link>
-                           <span>❌</span> 
+
+                           <Link to={`/delete-student/${id}`}> 
+                            <span>❌</span> 
+                           </Link>
                         </td>
                     </tr>
             )
