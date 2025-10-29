@@ -92,7 +92,6 @@ const CreateStudent = () => {
                   </div>
                   {errors.firstName && (
                     <span className="text-red-500">
-                      {errors.firstName.message}
                     </span>
                   )}
                 </div>

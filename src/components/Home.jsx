@@ -38,9 +38,9 @@ const Home = () => {
       )}
 
     {!loading && studentData && (
-      <div className="table-auto overflow-x-auto">
+    <div className="overflow-x-auto w-full px-2">
       <h1 className="text-3xl font-bold text-center">Student's Data</h1>
-     <table className="min-w-full divide-y">
+   <table className="min-w-full border-collapse text-sm sm:text-base">
        <thead className="bg-gray-50">
        <tr className="px-10 py-4 text-left tracking-wider font-medium">
         <th className="px-10 py-4 text-left tracking-wider font-medium">ID</th>

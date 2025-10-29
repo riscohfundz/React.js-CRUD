@@ -48,9 +48,9 @@ const UpdateStudent = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 flex justify-center items-center p-4">
-        <form onSubmit={handleSubmit(onSubmit)}> 
-         <div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-sm text-center">
+    <div className="min-h-screen bg-gray-100 flex justify-center items-center p-4 sm:p-6">
+     <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-sm sm:max-w-md md:max-w-lg bg-white shadow-lg rounded-2xl p-6">
+        <div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-sm text-center">
             <div className="border-b border-gray-900/10 pb-12">
               <h2 className="text-3xl font-bold text-center text-gray-900">
                 Update student Data

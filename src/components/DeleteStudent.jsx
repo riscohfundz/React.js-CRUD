@@ -25,7 +25,6 @@ const DeleteStudent = () => {
     try {
       if (window.confirm("Are you sure you want to delete this student?")) {
         await axios.delete(`http://localhost:3005/students/${id}`);
-        alert("Student deleted successfully!");
         navigate("/");
       }
     } catch (error) {
@@ -36,8 +35,8 @@ const DeleteStudent = () => {
   if (!student) return <p className="text-center text-gray-500 mt-10">Loading...</p>;
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md">
+      <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
+       <div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-sm sm:max-w-md text-center">
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-4">
           Delete Student Data
         </h2>

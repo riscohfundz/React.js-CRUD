@@ -32,7 +32,7 @@ const ReadStudent = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center items-center p-4">
-      <div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-sm text-center">
+       <div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-sm sm:max-w-md md:max-w-lg text-center">
         {/* Loader */}
         {loading ? (
           <div className="flex justify-center items-center gap-2 animate-spin text-blue-600 text-4xl">
