@@ -18,7 +18,7 @@ const CreateStudent = () => {
   const studentSchemaValidation = object({
   firstName: string().required("Firstname is required"),
   lastName: string().required("Lastname is required"),
-  age: string().required("Age is rewuired"),
+  age: string().required("Age is required"),
   phone: string() .required("Phone number is required").matches(
   /^234\d{10}$/, "Phone number must start with 234 and be 13 digits total"),
 });
