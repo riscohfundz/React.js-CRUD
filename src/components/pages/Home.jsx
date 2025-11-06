@@ -1,7 +1,6 @@
 import { BiLoaderCircle } from "react-icons/bi"; 
 import { useState, useEffect } from "react"
 import axios from "axios";
-import Nav from './Nav'
 import { Link } from "react-router";
 
 const Home = () => {
@@ -27,7 +26,6 @@ const Home = () => {
 
   return (
    <div className="space-y-8">
-      <Nav/>
     <main className="flex flex-col h-full justify-center items-center">
       {loading && (
           <div className="flex justify-center items-center gap-2 animate-spin text-blue-600 text-4xl">

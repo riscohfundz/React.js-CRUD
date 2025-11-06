@@ -1,4 +1,3 @@
-import Nav from "./Nav"
 import { object, string } from 'yup';
 import { v4 as uuidv4 } from 'uuid';
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -57,7 +56,6 @@ const CreateStudent = () => {
 
   return (
        <div className="flex flex-col justify-center items-center space-y-6">
-      <Nav />
       {loading && (
         <div className="flex flex-row">
           <BiLoaderCircle className="text-4xl text-blue-600" />

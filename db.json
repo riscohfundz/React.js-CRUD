@@ -1,38 +1,18 @@
 {
   "students": [
     {
-      "id": "19",
-      "firstName": "Sarah",
-      "lastName": "Connor",
-      "phone": "555-990-0112",
-      "age": 20
-    },
-    {
-      "id": "7b03dc3a-ca42-4804-a75a-384ff3416dc0",
+      "id": "53d5c6c2-74b3-4481-b290-303796a666db",
       "firstName": "Ridwan",
       "lastName": "Adekunle",
-      "age": "233",
+      "age": "30",
       "phone": "2349064781008"
-    }
-  ],
-  "scores": [
-    {
-      "id": "1",
-      "studentId": 1,
-      "Maths": 92,
-      "Eng": 85,
-      "Agric": 78,
-      "PHE": 95,
-      "Literature": 88
     },
     {
-      "id": "20",
-      "studentId": 20,
-      "Maths": 77,
-      "Eng": 96,
-      "Agric": 60,
-      "PHE": 83,
-      "Literature": 75
+      "id": "75d8f62b-de9d-44a9-9a6f-ba514c5d792b",
+      "firstName": "Ridwan",
+      "lastName": "Adekunle",
+      "age": "34",
+      "phone": "2349064781009"
     }
   ]
 }
